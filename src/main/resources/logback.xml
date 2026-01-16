@@ -1,0 +1,17 @@
+<!--<configuration>-->
+<!--    <root level="WARN">-->
+<!--        <appender-ref ref="STDOUT"/>-->
+<!--    </root>-->
+
+<!--    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">-->
+<!--        <encoder>-->
+<!--            <pattern>%msg%n</pattern>-->
+<!--        </encoder>-->
+<!--    </appender>-->
+
+<!--    &lt;!&ndash; Hibernate &ndash;&gt;-->
+<!--    <logger name="org.hibernate" level="ERROR"/>-->
+<!--    <logger name="org.hibernate.SQL" level="OFF"/>-->
+<!--    <logger name="org.hibernate.type.descriptor.sql" level="OFF"/>-->
+<!--    <logger name="org.hibernate.orm.jdbc.bind" level="OFF"/>-->
+<!--</configuration>-->
