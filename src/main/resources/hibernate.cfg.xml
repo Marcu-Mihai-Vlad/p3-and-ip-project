@@ -12,7 +12,7 @@
             jdbc:postgresql://localhost:5432/banking
         </property>
         <property name="hibernate.connection.username">postgres</property>
-        <property name="hibernate.connection.password">vlad2005</property>
+        <property name="hibernate.connection.password">placeholder_password</property>
 
         <!-- Hibernate dialect -->
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
