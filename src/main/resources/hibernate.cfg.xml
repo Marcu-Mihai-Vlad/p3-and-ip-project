@@ -12,16 +12,16 @@
             jdbc:postgresql://localhost:5432/banking
         </property>
         <property name="hibernate.connection.username">postgres</property>
-        <property name="hibernate.connection.password">secret</property>
+        <property name="hibernate.connection.password">vlad2005</property>
 
         <!-- Hibernate dialect -->
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
 
-        <!-- Show SQL in console -->
-        <property name="hibernate.show_sql">true</property>
-        <property name="hibernate.format_sql">true</property>
+        <!-- Show SQL in console, uncomment for debugging reasons -->
+<!--        <property name="hibernate.show_sql">true</property>-->
+<!--        <property name="hibernate.format_sql">true</property>-->
 
-        <!-- Automatically create/update tables -->
+        <!-- Automatically creating and updating tables -->
         <property name="hibernate.hbm2ddl.auto">update</property>
 
 
